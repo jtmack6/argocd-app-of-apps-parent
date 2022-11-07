@@ -12,7 +12,7 @@ spec:
   project: appbundle-project-dev
   source:
     path: kustomized_helm/overlays/dev
-    repoURL: https://github.com/jtmack6/jekyll-site-app
+    repoURL: https://github.com/jtmack6/argocd-jekyll-site
     targetRevision: HEAD
     plugin:
       name: kustomized-helm
